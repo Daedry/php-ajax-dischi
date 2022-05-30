@@ -1,0 +1,44 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-nav: #2e3a46;
+  --bg-main: #1e2d3b;
+  --text-gray: #808080;
+  --text-white: #fff;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+
+img {
+  width: 100%;
+}
+
+.col-2 {
+  width: calc(100% / 12) * 2;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.rg-1 {
+  row-gap: 1rem;
+}
+
+.cg-2 {
+  column-gap: 2rem;
+}
